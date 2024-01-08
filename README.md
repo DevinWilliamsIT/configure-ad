@@ -40,6 +40,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/704cbd66-0cb7-4b9d-a6fb-2dafa36acb74)
 
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/06cd38d5-1077-4031-9298-39cc6de2c059)
+
+
 
 
 
