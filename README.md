@@ -17,17 +17,32 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+1. Firstly, we are going to setup our resources in Azure (portal.azure.com).
+  <ul>
+    <li>Create the Resource Group and Domain Controller VM (Windows Server 2022) named “DC-1” with at least 2 vcpu's</l>
+    <li>Set Domain Controller’s (DC-1) NIC Private IP address to be static</li>
+    <li>Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.</li>
+    <li>Ensure that both VMs are in the same Vnet</li>
+  </ul>
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/ca4f91b4-7276-4bf7-b343-2c01cd7839f4)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/c54fb0e8-8d35-4ccb-bb8f-25e729b6f80e)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/96905cf0-0a63-46d9-bf5f-46f166275cc1)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/0bd80de4-1721-45d7-b41a-202c806a910d)
+
+
+
+
+  
+
+  
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
