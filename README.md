@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     <li>Ensure that both VMs are in the same Vnet</li>
   </ul>
 
-  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/ca4f91b4-7276-4bf7-b343-2c01cd7839f4)
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/ef7247d8-be10-4db3-ba7e-4db7cc43fdef)
 
   ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/c54fb0e8-8d35-4ccb-bb8f-25e729b6f80e)
 
