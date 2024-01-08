@@ -32,9 +32,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/c54fb0e8-8d35-4ccb-bb8f-25e729b6f80e)
 
-  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/96905cf0-0a63-46d9-bf5f-46f166275cc1)
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/131644f2-2c07-4ee3-acfb-129876d6e676)
 
   ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/0bd80de4-1721-45d7-b41a-202c806a910d)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/cbaba373-cae6-42ef-8708-ae1bc00188a7)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/704cbd66-0cb7-4b9d-a6fb-2dafa36acb74)
+
+
 
 
 
