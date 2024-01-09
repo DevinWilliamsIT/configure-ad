@@ -106,6 +106,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
     </ul>
   </p>
 
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/bf9c6d30-1623-4ad3-a1ad-2aa6aab3aee3)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/eace0b8b-05bd-44ea-8be3-44a2c051343d)
+
+  
+
+
+
 
 
 
