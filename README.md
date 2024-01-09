@@ -125,7 +125,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <br />
 
   <p>
-    Next we are going to join Client-1 to your domain (mydomain.com)
+    5. Next we are going to join Client-1 to your domain (mydomain.com)
     <ul>
       <li>From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address</li>
       <li>From the Azure Portal, restart Client-1</li>
@@ -134,6 +134,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
       <li>Create a new OU named “_CLIENTS” and drag Client-1 into there</li>
     </ul>
   </p>
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/b09febe6-e65f-4c7f-a5d6-cdc4c73d2009)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/45cc5410-2eef-472b-81ed-ec8a94e9ca59)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/a9de97cf-bb62-40c3-b486-4feffa5e6848)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/1cab5d4e-e6b7-4d39-bcff-5ca6958c18fe)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/a79787bf-8476-42c8-9eff-806b67c46fdb)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/045f2892-2143-4ba6-a861-24be3dac5cc9)
+
+  
+
+
+
+
+
+
 
 
 
