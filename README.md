@@ -42,6 +42,52 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/06cd38d5-1077-4031-9298-39cc6de2c059)
 
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/e3a7ef81-3c80-447c-b1e5-51ac339ad3bb)
+
+  <br />
+
+  <p>
+    2. Next we are going to ensure connectivity between the client and Domain Controller
+    <ul>
+      <li>Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t</li>
+      <li>Login to the Domain Controller (DC-1) and enable ICMPv4 in on the local windows Firewall</li>
+      <li>Check back at Client-1 to see the ping succeed</li>
+    </ul>
+  </p>
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/cd6cbaa4-f5c2-48f0-92a0-0d766a3ed951)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/b8c0f530-61fa-4359-8a3d-32d9522e885a)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/f89ad7e7-82af-4b00-8b63-3fcc1bb02d37)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/95c0157a-c061-49b6-aa11-57ded2bfceec)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/6e3bc1f1-4922-46a8-bc47-08bcd1e1aed3)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/4f4edb73-7f57-45fb-b80d-dfd364a6ec6f)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/ae43b487-7b18-4c21-9f52-33d48649810f)
+
+  <br />
+
+  <p>
+  3. Next we are going to install Active Directory.
+    <ul>
+      <li>Login to DC-1 and install Active Directory Domain Services</li>
+      <li>Promote as a DC: Setup a new forest as mydomain.com</li>
+      <li>Restart and then log back into DC-1 as user: mydomain.com\labuser</li>
+    </ul>
+  </p>
+
+
+
+
+
+
+
+
+
 
 
 
