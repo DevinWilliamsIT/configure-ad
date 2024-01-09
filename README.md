@@ -147,6 +147,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/abd3b5ec-e897-4b6b-876a-661c60689703)
 
+  <br />
+
+  <p>
+    6. Next we are going to setup Remote Desktop for non-administrative users on Client-1
+    <ul>
+    <li>Log into Client-1 as mydomain.com\steph_admin and open system properties</li>
+    <li>Click “Remote Desktop”</li>
+    <li>Allow “domain users” access to remote desktop</li>
+    <li>You can now log into Client-1 as a normal, non-administrative user now</li>
+    </ul>
+  </p>
+
   
 
 
