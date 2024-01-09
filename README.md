@@ -80,6 +80,38 @@ This tutorial outlines the implementation of on-premises Active Directory within
     </ul>
   </p>
 
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/7c87f5ca-6b7a-4b08-bd53-12120de3e9d5)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/79980bfb-1d6f-4a04-a9a2-332c7491c23b)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/2d90652a-bd9c-4cfe-a2c3-083d1464bc94)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/b19add13-6d5b-4337-af98-3d6803cdb53f)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/626cfb4e-35ce-42e1-ab6a-cb676e7e567a)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/2efff94b-4dfe-4898-8a5c-80c7f3499b81)
+
+  <br />
+
+  <p>
+    4. Now we are going to Create an Admin and Normal User Account in Active Directory
+    <ul>
+    <li>In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”</li>
+    <li>Create a new OU named “_ADMINS”</li>
+    <li>Create a new employee named “Steph Curry” (same password) with the username of “steph_admin”</li>
+    <li>Add steph_admin to the “Domain Admins” Security Group</li>
+    <li>Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\steph_admin”</li>
+    <li>User steph_admin as your admin account from now on</li>
+    </ul>
+  </p>
+
+
+
+
+
+
+
 
 
 
