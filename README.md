@@ -76,7 +76,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     <ul>
       <li>Login to DC-1 and install Active Directory Domain Services</li>
       <li>Promote as a DC: Setup a new forest as mydomain.com</li>
-      <li>Restart and then log back into DC-1 as user: mydomain.com\labuser</li>
+      <li>Restart and then log back into DC-1 as user: mydomain.com\devuser</li>
     </ul>
   </p>
 
@@ -129,7 +129,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     <ul>
       <li>From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address</li>
       <li>From the Azure Portal, restart Client-1</li>
-      <li>Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)</li>
+      <li>Login to Client-1 (Remote Desktop) as the original local admin (devuser) and join it to the domain (computer will restart)</li>
       <li>Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain</li>
       <li>Create a new OU named “_CLIENTS” and drag Client-1 into there</li>
     </ul>
