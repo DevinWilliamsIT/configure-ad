@@ -130,6 +130,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
       <li>From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address</li>
       <li>From the Azure Portal, restart Client-1</li>
       <li>Login to Client-1 (Remote Desktop) as the original local admin (devuser) and join it to the domain (computer will restart)</li>
+      <li>Go to system and Rename this PC andset domain to mydomain.com</li>
+      <li>Type in your user and password, user should be steph_admin</li>
       <li>Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain</li>
       <li>Create a new OU named “_CLIENTS” and drag Client-1 into there</li>
     </ul>
@@ -164,6 +166,59 @@ This tutorial outlines the implementation of on-premises Active Directory within
     <li>You can now log into Client-1 as a normal, non-administrative user now</li>
     </ul>
   </p>
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/21adcb9d-d099-4847-b976-aa0fed21b52d)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/c45f352b-50c9-474a-b4a9-7d773253e71a)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/8794e2e4-550e-4c24-994d-45570b1fdf19)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/d2e85764-0e88-42e1-a593-f04f86563a90)
+
+  <br />
+
+  <p>
+    7. Next we are going to bunch of additional users and attempt to log into client-1 with one of the users
+    <ul>
+      <li>Login to DC-1 as steph_admin</li>
+      <li>Open PowerShell_ise as an administrator</li>
+      <li>Create a new File and paste the contents of the script into it </li>
+      <li>Run the script and observe the accounts being created (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)</li>
+      <li>When finished, open ADUC and observe the accounts in the appropriate OU</li>
+      <li>attempt to log into Client-1 with one of the accounts (using Password1)</li>
+    </ul>
+  </p>
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/b630abd7-f6ba-40ff-806b-b9eb0ef34a2d)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/b942517f-2db1-42ee-8bee-c06200d6ac1b)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/7cf22024-a5a0-4ce3-9fc2-42eff1c008dd)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/7f01452c-f330-421f-81e6-539b4eeadb8f)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/4ed4bbe2-63bc-4f3c-958d-6e5e36db801f)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/3d8231b1-b414-4219-8f1c-b5b57ecf94c8)
+
+  ![image](https://github.com/DevinWilliamsIT/configure-ad/assets/155914712/e36543f9-224f-4df3-9b8f-792c41ad3942)
+
+  <p>All done!</p>
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
 
   
 
